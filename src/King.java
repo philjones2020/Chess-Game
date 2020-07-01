@@ -15,7 +15,7 @@ public class King extends Piece {
 
     @Override
     public boolean canMove(Board board, Spot start, Spot end) {
-        //Logic for moves
+        //Logic for normal moves
         return this.isValidCastling(board, start, end);
     }
 
@@ -24,9 +24,11 @@ public class King extends Piece {
             return false;
         }
         //Some more logic
+        return true;
     }
 
     public boolean isCastlingMove(Spot start, Spot end){
         //Castling Logic
+        return true;
     }
 }

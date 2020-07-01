@@ -14,9 +14,9 @@ public abstract class Piece {
         this.white = white;
     }
 
-    public void boolean isKilled(){
+    /*public void boolean isKilled(){
         return this.killed == true;
-    }
+    }*/
 
     public void setKilled(boolean killed){
         this.killed = killed;
